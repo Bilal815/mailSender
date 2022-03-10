@@ -6,8 +6,8 @@ def index(request):
     send_mail(
         'Saying Hello...',
         'This is just a test message',
-        'Bilalahmed815@gmail.com',
-        ['ahmed.faraz@codelabs.inc'],
+        'test@gmail.com',
+        ['a.f@coded.com'],
         fail_silently=False
     )
     return render(request, 'send/index.html')
